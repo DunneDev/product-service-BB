@@ -27,7 +27,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
         Product {
             id: 4,
             name: "Sony WH-1000XM5 Headphones".to_string(),
-            price: 378.00,
+            price: 378.99,
             description: "Sony’s ultra comfortable WH-1000XM5 headphones rewrite the rules for distraction-free listening and exceptional call clarity. Two processors control multiple microphones for unprecedented noise cancelling while Auto NC Optimizer automatically optimizes noise cancelling based on your wearing conditions and environment. The specially designed 30mm driver unit delivers superior sound quality for all your entertainment.".to_string(),
             image: "/headphones.jpg".to_string()
         },
@@ -75,4 +75,3 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
         }
     ]
 }
-
