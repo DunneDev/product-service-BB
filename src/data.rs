@@ -68,10 +68,10 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "PlayStation 5 Slim".to_string(),
+            price: 449.99,
+            description: "Dominate the game with the PlayStation5 slim digital edition console Fortnite Flowering Chaos bundle. It includes a PS5 digital edition, eight exclusive Fortnite items, and 1,000 V-Bucks to level up your gameplay. Jump into Fortnite with cosmetics like the Florin outfit and Blossom backpack. Explore LEGO Fortnite to build, craft, and adventure in blocky, creative worlds.".to_string(),
+            image: "/ps5.jpg".to_string()
         }
     ]
 }
